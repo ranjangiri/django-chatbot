@@ -55,7 +55,7 @@ ROOT_URLCONF = 'inten.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['inten/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
