@@ -19,6 +19,6 @@ def index(request):
     data['category'] = category
     data['result']=b
 
-    return render(request,'index.html',data)
+    return render(request,'inten/templates/index.html',data)
 
 # Create your views here.
